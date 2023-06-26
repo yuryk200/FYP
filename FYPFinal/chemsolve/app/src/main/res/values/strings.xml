@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">chemsolve</string>
+    <string name="server_url">http://192.168.1.123:5000/interactive_shell</string>
+</resources>

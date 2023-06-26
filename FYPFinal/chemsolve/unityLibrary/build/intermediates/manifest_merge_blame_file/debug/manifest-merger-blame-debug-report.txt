@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="26"
+7-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+10-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+11    <uses-feature
+11-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:22:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:22:17-63
+13        android:required="false" />
+13-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:22:64-88
+14    <uses-feature
+14-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+15        android:name="android.hardware.touchscreen"
+15-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+16        android:required="false" />
+16-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+17    <uses-feature
+17-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+19        android:required="false" />
+19-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+20    <uses-feature
+20-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+22        android:required="false" />
+22-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+23
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:26:3-75
+24-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:26:20-72
+25
+26    <application android:extractNativeLibs="true" >
+26-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+26-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+27        <activity
+27-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:5-7:16
+28            android:name="com.unity3d.player.UnityPlayerActivity"
+28-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+29-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+30            android:hardwareAccelerated="false"
+30-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+31            android:launchMode="singleTask"
+31-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+32            android:resizeableActivity="false"
+32-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+33            android:screenOrientation="fullUser"
+33-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+34            android:theme="@style/UnityThemeSelector" >
+34-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+35            <meta-data
+35-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:5:7-82
+36                android:name="unityplayer.UnityActivity"
+36-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:5:18-58
+37                android:value="true" />
+37-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:5:59-79
+38            <meta-data
+38-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:6:7-78
+39                android:name="android.notch_support"
+39-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:6:18-54
+40                android:value="true" />
+40-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:6:55-75
+41        </activity>
+42
+43        <meta-data
+43-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:8:5-69
+44            android:name="unity.splash-mode"
+44-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:8:16-48
+45            android:value="0" />
+45-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:8:49-66
+46        <meta-data
+46-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:9:5-74
+47            android:name="unity.splash-enable"
+47-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:9:16-50
+48            android:value="True" />
+48-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:9:51-71
+49        <meta-data
+49-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:10:5-78
+50            android:name="unity.launch-fullscreen"
+50-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:10:16-54
+51            android:value="True" />
+51-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+52        <meta-data
+52-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:11:5-84
+53            android:name="unity.allow-resizable-window"
+53-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:11:16-59
+54            android:value="False" />
+54-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:11:60-81
+55        <meta-data
+55-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:12:5-81
+56            android:name="notch.config"
+56-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:12:16-43
+57            android:value="portrait|landscape" />
+57-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:12:44-78
+58
+59        <receiver
+59-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:13:5-113
+60            android:name="com.unity.androidnotifications.UnityNotificationManager"
+60-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:13:15-85
+61            android:exported="false" />
+61-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:13:86-110
+62        <receiver
+62-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:14:5-18:16
+63            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+63-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:14:15-99
+64            android:enabled="false"
+64-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:14:100-123
+65            android:exported="false" >
+65-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:14:124-148
+66            <intent-filter>
+66-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:15:7-17:23
+67                <action android:name="android.intent.action.BOOT_COMPLETED" />
+67-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:16:9-71
+67-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:16:17-68
+68            </intent-filter>
+69        </receiver>
+70
+71        <meta-data
+71-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:19:5-99
+72            android:name="com.unity.androidnotifications.exact_scheduling"
+72-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:19:16-78
+73            android:value="0" />
+73-->C:\Users\Yuriy\AndroidStudioProjects\chemsolve\unityLibrary\src\main\AndroidManifest.xml:19:79-96
+74    </application>
+75
+76</manifest>

@@ -1,0 +1,552 @@
+2023-01-26 03:01:05,143:INFO: Building model...
+2023-01-26 03:01:06,409:INFO: - done.
+2023-01-26 03:01:06,410:INFO: Epoch 1/30
+2023-01-26 03:01:09,193:INFO: - Training:  - 2s - loss: 3.0140 - perplexity: 20.3678 - lr: 0.0001
+2023-01-26 03:01:10,148:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 4.55 - perplexity -9.33
+2023-01-26 03:01:10,148:INFO: - New best score (-9.33)!
+2023-01-26 03:01:12,000:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:01:12,001:INFO: - Elapsed time: 5.59, lr: 0.00010
+2023-01-26 03:01:12,001:INFO: Epoch 2/30
+2023-01-26 03:01:14,857:INFO: - Training:  - 2s - loss: 2.2492 - perplexity: 9.4800 - lr: 0.0001
+2023-01-26 03:01:17,934:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 4.55 - perplexity -5.95
+2023-01-26 03:01:17,935:INFO: - New best score (-5.95)!
+2023-01-26 03:01:19,389:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:01:19,390:INFO: - Elapsed time: 7.39, lr: 0.00010
+2023-01-26 03:01:19,390:INFO: Epoch 3/30
+2023-01-26 03:01:22,132:INFO: - Training:  - 2s - loss: 1.7672 - perplexity: 5.8544 - lr: 0.0001
+2023-01-26 03:01:25,220:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 8.18 - perplexity -5.51
+2023-01-26 03:01:25,221:INFO: - New best score (-5.51)!
+2023-01-26 03:01:27,136:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:01:27,137:INFO: - Elapsed time: 7.75, lr: 0.00010
+2023-01-26 03:01:27,137:INFO: Epoch 4/30
+2023-01-26 03:01:29,962:INFO: - Training:  - 2s - loss: 1.6521 - perplexity: 5.2178 - lr: 0.0001
+2023-01-26 03:01:33,191:INFO: - Eval: BLEU-4 1.45 - EM 0.00 - Edit 21.82 - perplexity -5.84
+2023-01-26 03:01:33,192:INFO: - Elapsed time: 6.05, lr: 0.00010
+2023-01-26 03:01:33,193:INFO: Epoch 5/30
+2023-01-26 03:01:36,129:INFO: - Training:  - 2s - loss: 1.6889 - perplexity: 5.4135 - lr: 0.0001
+2023-01-26 03:01:39,307:INFO: - Eval: BLEU-4 8.45 - EM 0.00 - Edit 43.64 - perplexity -5.79
+2023-01-26 03:01:39,307:INFO: - Elapsed time: 6.11, lr: 0.00010
+2023-01-26 03:01:39,308:INFO: Epoch 6/30
+2023-01-26 03:01:42,232:INFO: - Training:  - 2s - loss: 1.6770 - perplexity: 5.3493 - lr: 0.0001
+2023-01-26 03:01:45,461:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -5.39
+2023-01-26 03:01:45,462:INFO: - New best score (-5.39)!
+2023-01-26 03:01:46,621:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:01:46,621:INFO: - Elapsed time: 7.31, lr: 0.00010
+2023-01-26 03:01:46,622:INFO: Epoch 7/30
+2023-01-26 03:01:49,395:INFO: - Training:  - 2s - loss: 1.6125 - perplexity: 5.0155 - lr: 0.0001
+2023-01-26 03:01:52,544:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -5.02
+2023-01-26 03:01:52,545:INFO: - New best score (-5.02)!
+2023-01-26 03:01:54,512:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:01:54,513:INFO: - Elapsed time: 7.89, lr: 0.00010
+2023-01-26 03:01:54,513:INFO: Epoch 8/30
+2023-01-26 03:01:57,253:INFO: - Training:  - 2s - loss: 1.5511 - perplexity: 4.7165 - lr: 0.0001
+2023-01-26 03:02:00,428:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.92
+2023-01-26 03:02:00,429:INFO: - New best score (-4.92)!
+2023-01-26 03:02:01,658:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:01,658:INFO: - Elapsed time: 7.15, lr: 0.00010
+2023-01-26 03:02:01,659:INFO: Epoch 9/30
+2023-01-26 03:02:04,408:INFO: - Training:  - 2s - loss: 1.5388 - perplexity: 4.6591 - lr: 0.0001
+2023-01-26 03:02:07,557:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -5.00
+2023-01-26 03:02:07,558:INFO: - Elapsed time: 5.90, lr: 0.00010
+2023-01-26 03:02:07,558:INFO: Epoch 10/30
+2023-01-26 03:02:10,431:INFO: - Training:  - 2s - loss: 1.5577 - perplexity: 4.7478 - lr: 0.0001
+2023-01-26 03:02:13,600:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.99
+2023-01-26 03:02:13,600:INFO: - Elapsed time: 6.04, lr: 0.00010
+2023-01-26 03:02:13,601:INFO: Epoch 11/30
+2023-01-26 03:02:16,345:INFO: - Training:  - 2s - loss: 1.5570 - perplexity: 4.7446 - lr: 0.0001
+2023-01-26 03:02:19,584:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.84
+2023-01-26 03:02:19,584:INFO: - New best score (-4.84)!
+2023-01-26 03:02:20,836:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:20,836:INFO: - Elapsed time: 7.23, lr: 0.00010
+2023-01-26 03:02:20,837:INFO: Epoch 12/30
+2023-01-26 03:02:23,584:INFO: - Training:  - 2s - loss: 1.5274 - perplexity: 4.6062 - lr: 0.0001
+2023-01-26 03:02:26,747:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.66
+2023-01-26 03:02:26,748:INFO: - New best score (-4.66)!
+2023-01-26 03:02:28,003:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:28,004:INFO: - Elapsed time: 7.17, lr: 0.00010
+2023-01-26 03:02:28,004:INFO: Epoch 13/30
+2023-01-26 03:02:30,711:INFO: - Training:  - 2s - loss: 1.4892 - perplexity: 4.4338 - lr: 0.0001
+2023-01-26 03:02:33,927:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.54
+2023-01-26 03:02:33,928:INFO: - New best score (-4.54)!
+2023-01-26 03:02:35,431:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:35,431:INFO: - Elapsed time: 7.43, lr: 0.00010
+2023-01-26 03:02:35,432:INFO: Epoch 14/30
+2023-01-26 03:02:38,152:INFO: - Training:  - 2s - loss: 1.4626 - perplexity: 4.3174 - lr: 0.0001
+2023-01-26 03:02:41,323:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.50
+2023-01-26 03:02:41,324:INFO: - New best score (-4.50)!
+2023-01-26 03:02:42,644:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:42,645:INFO: - Elapsed time: 7.21, lr: 0.00010
+2023-01-26 03:02:42,645:INFO: Epoch 15/30
+2023-01-26 03:02:45,384:INFO: - Training:  - 2s - loss: 1.4528 - perplexity: 4.2750 - lr: 0.0001
+2023-01-26 03:02:48,551:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.50
+2023-01-26 03:02:48,552:INFO: - New best score (-4.50)!
+2023-01-26 03:02:49,950:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:49,951:INFO: - Elapsed time: 7.31, lr: 0.00010
+2023-01-26 03:02:49,951:INFO: Epoch 16/30
+2023-01-26 03:02:52,794:INFO: - Training:  - 2s - loss: 1.4518 - perplexity: 4.2707 - lr: 0.0001
+2023-01-26 03:02:55,995:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.48
+2023-01-26 03:02:55,996:INFO: - New best score (-4.48)!
+2023-01-26 03:02:57,613:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:02:57,614:INFO: - Elapsed time: 7.66, lr: 0.00010
+2023-01-26 03:02:57,615:INFO: Epoch 17/30
+2023-01-26 03:03:00,380:INFO: - Training:  - 2s - loss: 1.4492 - perplexity: 4.2599 - lr: 0.0001
+2023-01-26 03:03:03,540:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.43
+2023-01-26 03:03:03,541:INFO: - New best score (-4.43)!
+2023-01-26 03:03:04,853:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:03:04,853:INFO: - Elapsed time: 7.24, lr: 0.00010
+2023-01-26 03:03:04,854:INFO: Epoch 18/30
+2023-01-26 03:03:07,692:INFO: - Training:  - 2s - loss: 1.4403 - perplexity: 4.2219 - lr: 0.0001
+2023-01-26 03:03:10,900:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.37
+2023-01-26 03:03:10,901:INFO: - New best score (-4.37)!
+2023-01-26 03:03:12,584:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:03:12,584:INFO: - Elapsed time: 7.73, lr: 0.00010
+2023-01-26 03:03:12,585:INFO: Epoch 19/30
+2023-01-26 03:03:15,347:INFO: - Training:  - 2s - loss: 1.4265 - perplexity: 4.1639 - lr: 0.0001
+2023-01-26 03:03:18,564:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.30
+2023-01-26 03:03:18,565:INFO: - New best score (-4.30)!
+2023-01-26 03:03:20,014:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:03:20,015:INFO: - Elapsed time: 7.43, lr: 0.00010
+2023-01-26 03:03:20,015:INFO: Epoch 20/30
+2023-01-26 03:03:22,891:INFO: - Training:  - 2s - loss: 1.4130 - perplexity: 4.1084 - lr: 0.0001
+2023-01-26 03:03:26,050:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.26
+2023-01-26 03:03:26,050:INFO: - New best score (-4.26)!
+2023-01-26 03:03:27,502:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:03:27,503:INFO: - Elapsed time: 7.49, lr: 0.00010
+2023-01-26 03:03:27,504:INFO: Epoch 21/30
+2023-01-26 03:03:30,300:INFO: - Training:  - 2s - loss: 1.4052 - perplexity: 4.0763 - lr: 0.0001
+2023-01-26 03:03:33,422:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.26
+2023-01-26 03:03:33,423:INFO: - New best score (-4.26)!
+2023-01-26 03:03:35,343:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:03:35,344:INFO: - Elapsed time: 7.84, lr: 0.00010
+2023-01-26 03:03:35,344:INFO: Epoch 22/30
+2023-01-26 03:03:38,194:INFO: - Training:  - 2s - loss: 1.4045 - perplexity: 4.0735 - lr: 0.0001
+2023-01-26 03:03:41,403:INFO: - Eval: BLEU-4 8.91 - EM 0.00 - Edit 41.40 - perplexity -4.29
+2023-01-26 03:03:41,404:INFO: - Elapsed time: 6.06, lr: 0.00010
+2023-01-26 03:03:41,405:INFO: Epoch 23/30
+2023-01-26 03:03:44,129:INFO: - Training:  - 2s - loss: 1.4077 - perplexity: 4.0864 - lr: 0.0001
+2023-01-26 03:03:47,310:INFO: - Eval: BLEU-4 12.95 - EM 0.00 - Edit 59.09 - perplexity -4.31
+2023-01-26 03:03:47,311:INFO: - Elapsed time: 5.91, lr: 0.00010
+2023-01-26 03:03:47,311:INFO: Epoch 24/30
+2023-01-26 03:03:50,448:INFO: - Training:  - 3s - loss: 1.4091 - perplexity: 4.0923 - lr: 0.0001
+2023-01-26 03:03:53,659:INFO: - Eval: BLEU-4 12.95 - EM 0.00 - Edit 59.09 - perplexity -4.31
+2023-01-26 03:03:53,660:INFO: - Elapsed time: 6.35, lr: 0.00010
+2023-01-26 03:03:53,660:INFO: Epoch 25/30
+2023-01-26 03:03:56,486:INFO: - Training:  - 2s - loss: 1.4054 - perplexity: 4.0772 - lr: 0.0001
+2023-01-26 03:03:59,690:INFO: - Eval: BLEU-4 13.03 - EM 0.00 - Edit 58.04 - perplexity -4.30
+2023-01-26 03:03:59,690:INFO: - Elapsed time: 6.03, lr: 0.00010
+2023-01-26 03:03:59,691:INFO: Epoch 26/30
+2023-01-26 03:04:02,927:INFO: - Training:  - 3s - loss: 1.3972 - perplexity: 4.0440 - lr: 0.0001
+2023-01-26 03:04:06,094:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.28
+2023-01-26 03:04:06,094:INFO: - Elapsed time: 6.40, lr: 0.00010
+2023-01-26 03:04:06,095:INFO: Epoch 27/30
+2023-01-26 03:04:08,866:INFO: - Training:  - 2s - loss: 1.3879 - perplexity: 4.0063 - lr: 0.0001
+2023-01-26 03:04:12,110:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.26
+2023-01-26 03:04:12,111:INFO: - New best score (-4.26)!
+2023-01-26 03:04:13,294:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:04:13,295:INFO: - Elapsed time: 7.20, lr: 0.00010
+2023-01-26 03:04:13,295:INFO: Epoch 28/30
+2023-01-26 03:04:16,047:INFO: - Training:  - 2s - loss: 1.3803 - perplexity: 3.9760 - lr: 0.0001
+2023-01-26 03:04:19,210:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.25
+2023-01-26 03:04:19,211:INFO: - New best score (-4.25)!
+2023-01-26 03:04:20,818:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:04:20,818:INFO: - Elapsed time: 7.52, lr: 0.00010
+2023-01-26 03:04:20,819:INFO: Epoch 29/30
+2023-01-26 03:04:23,546:INFO: - Training:  - 2s - loss: 1.3752 - perplexity: 3.9557 - lr: 0.0001
+2023-01-26 03:04:26,773:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.24
+2023-01-26 03:04:26,773:INFO: - New best score (-4.24)!
+2023-01-26 03:04:28,232:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:04:28,232:INFO: - Elapsed time: 7.41, lr: 0.00010
+2023-01-26 03:04:28,233:INFO: Epoch 30/30
+2023-01-26 03:04:30,923:INFO: - Training:  - 2s - loss: 1.3715 - perplexity: 3.9411 - lr: 0.0001
+2023-01-26 03:04:34,109:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.22
+2023-01-26 03:04:34,110:INFO: - New best score (-4.22)!
+2023-01-26 03:04:35,313:INFO: - Saved model in results/small/model.weights/
+2023-01-26 03:04:35,313:INFO: - Elapsed time: 7.08, lr: 0.00010
+2023-01-26 03:05:59,599:INFO: Building model...
+2023-01-26 03:06:00,146:INFO: - done.
+2023-01-26 03:06:00,147:INFO: Reloading the latest trained model...
+2023-01-26 03:06:00,147:INFO: Restoring parameters from results/small/model.weights/
+2023-01-26 03:06:03,700:INFO: - Test Txt: BLEU-4 4.57 - EM 0.00 - Edit 23.08 - perplexity -4.02
+2023-01-26 03:17:23,119:INFO: Building model...
+2023-01-26 03:17:24,405:INFO: - done.
+2023-01-26 03:17:24,407:INFO: Epoch 1/30
+2023-01-26 04:27:25,929:INFO: - Training:  - 4201s - loss: 1.1158 - perplexity: 3.1035 - lr: 0.0001
+2023-01-26 04:33:15,196:INFO: - Eval: BLEU-4 28.50 - EM 0.00 - Edit 58.88 - perplexity -2.53
+2023-01-26 04:33:15,197:INFO: - New best score (-2.53)!
+2023-01-26 04:33:16,442:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 04:33:16,443:INFO: - Elapsed time: 4552.04, lr: 0.00010
+2023-01-26 04:33:16,443:INFO: Epoch 2/30
+2023-01-26 05:43:17,918:INFO: - Training:  - 4201s - loss: 0.8804 - perplexity: 2.4149 - lr: 0.0001
+2023-01-26 05:49:33,261:INFO: - Eval: BLEU-4 31.43 - EM 0.00 - Edit 60.54 - perplexity -2.33
+2023-01-26 05:49:33,262:INFO: - New best score (-2.33)!
+2023-01-26 05:49:34,467:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 05:49:34,468:INFO: - Elapsed time: 4578.02, lr: 0.00010
+2023-01-26 05:49:34,469:INFO: Epoch 3/30
+2023-01-26 06:59:32,730:INFO: - Training:  - 4198s - loss: 0.8323 - perplexity: 2.3003 - lr: 0.0001
+2023-01-26 07:05:47,330:INFO: - Eval: BLEU-4 33.91 - EM 0.00 - Edit 59.40 - perplexity -2.29
+2023-01-26 07:05:47,331:INFO: - New best score (-2.29)!
+2023-01-26 07:05:48,589:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 07:05:48,590:INFO: - Elapsed time: 4574.12, lr: 0.00010
+2023-01-26 07:05:48,591:INFO: Epoch 4/30
+2023-01-26 08:15:32,722:INFO: - Training:  - 4184s - loss: 0.7835 - perplexity: 2.1912 - lr: 0.0001
+2023-01-26 08:22:19,040:INFO: - Eval: BLEU-4 33.76 - EM 0.00 - Edit 61.10 - perplexity -2.10
+2023-01-26 08:22:19,041:INFO: - New best score (-2.10)!
+2023-01-26 08:22:20,240:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 08:22:20,241:INFO: - Elapsed time: 4591.65, lr: 0.00010
+2023-01-26 08:22:20,242:INFO: Epoch 5/30
+2023-01-26 09:32:06,617:INFO: - Training:  - 4186s - loss: 0.7041 - perplexity: 2.0240 - lr: 0.0001
+2023-01-26 09:38:43,623:INFO: - Eval: BLEU-4 35.22 - EM 0.00 - Edit 63.38 - perplexity -2.11
+2023-01-26 09:38:43,624:INFO: - Elapsed time: 4583.38, lr: 0.00010
+2023-01-26 09:38:43,625:INFO: Epoch 6/30
+2023-01-26 10:48:17,003:INFO: - Training:  - 4173s - loss: 0.6294 - perplexity: 1.8781 - lr: 0.0001
+2023-01-26 10:55:10,073:INFO: - Eval: BLEU-4 49.40 - EM 0.00 - Edit 64.88 - perplexity -1.94
+2023-01-26 10:55:10,074:INFO: - New best score (-1.94)!
+2023-01-26 10:55:11,264:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 10:55:11,264:INFO: - Elapsed time: 4587.64, lr: 0.00010
+2023-01-26 10:55:11,265:INFO: Epoch 7/30
+2023-01-26 12:04:50,769:INFO: - Training:  - 4179s - loss: 0.5734 - perplexity: 1.7756 - lr: 0.0001
+2023-01-26 12:11:51,638:INFO: - Eval: BLEU-4 52.44 - EM 0.00 - Edit 66.40 - perplexity -1.74
+2023-01-26 12:11:51,639:INFO: - New best score (-1.74)!
+2023-01-26 12:11:53,028:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 12:11:53,029:INFO: - Elapsed time: 4601.76, lr: 0.00010
+2023-01-26 12:11:53,029:INFO: Epoch 8/30
+2023-01-26 13:21:31,352:INFO: - Training:  - 4178s - loss: 0.5182 - perplexity: 1.6803 - lr: 0.0001
+2023-01-26 13:28:49,640:INFO: - Eval: BLEU-4 58.41 - EM 0.00 - Edit 67.65 - perplexity -1.75
+2023-01-26 13:28:49,643:INFO: - Elapsed time: 4616.61, lr: 0.00010
+2023-01-26 13:28:49,644:INFO: Epoch 9/30
+2023-01-26 14:39:00,078:INFO: - Training:  - 4210s - loss: 0.4661 - perplexity: 1.5952 - lr: 0.0001
+2023-01-26 14:46:02,871:INFO: - Eval: BLEU-4 63.60 - EM 0.12 - Edit 69.70 - perplexity -1.64
+2023-01-26 14:46:02,872:INFO: - New best score (-1.64)!
+2023-01-26 14:46:04,091:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 14:46:04,092:INFO: - Elapsed time: 4634.45, lr: 0.00010
+2023-01-26 14:46:04,092:INFO: Epoch 10/30
+2023-01-26 15:57:16,644:INFO: - Training:  - 4272s - loss: 0.4122 - perplexity: 1.5114 - lr: 0.0001
+2023-01-26 16:04:29,597:INFO: - Eval: BLEU-4 66.90 - EM 0.49 - Edit 72.12 - perplexity -1.55
+2023-01-26 16:04:29,598:INFO: - New best score (-1.55)!
+2023-01-26 16:04:31,051:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 16:04:31,065:INFO: - Elapsed time: 4706.97, lr: 0.00010
+2023-01-26 16:04:31,066:INFO: Epoch 11/30
+2023-01-26 17:15:18,286:INFO: - Training:  - 4247s - loss: 0.3706 - perplexity: 1.4496 - lr: 0.0001
+2023-01-26 17:22:21,415:INFO: - Eval: BLEU-4 65.46 - EM 1.10 - Edit 72.93 - perplexity -1.50
+2023-01-26 17:22:21,416:INFO: - New best score (-1.50)!
+2023-01-26 17:22:22,683:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 17:22:22,684:INFO: - Elapsed time: 4671.62, lr: 0.00010
+2023-01-26 17:22:22,685:INFO: Epoch 12/30
+2023-01-26 18:33:01,000:INFO: - Training:  - 4238s - loss: 0.3309 - perplexity: 1.3933 - lr: 0.0001
+2023-01-26 18:40:14,058:INFO: - Eval: BLEU-4 68.82 - EM 2.44 - Edit 73.87 - perplexity -1.48
+2023-01-26 18:40:14,059:INFO: - New best score (-1.48)!
+2023-01-26 18:40:15,423:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 18:40:15,423:INFO: - Elapsed time: 4672.74, lr: 0.00010
+2023-01-26 18:40:15,424:INFO: Epoch 13/30
+2023-01-26 19:50:38,614:INFO: - Training:  - 4223s - loss: 0.2993 - perplexity: 1.3499 - lr: 0.0001
+2023-01-26 19:57:48,149:INFO: - Eval: BLEU-4 71.04 - EM 4.52 - Edit 75.41 - perplexity -1.42
+2023-01-26 19:57:48,150:INFO: - New best score (-1.42)!
+2023-01-26 19:57:49,444:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 19:57:49,445:INFO: - Elapsed time: 4654.02, lr: 0.00010
+2023-01-26 19:57:49,445:INFO: Epoch 14/30
+2023-01-26 21:08:39,731:INFO: - Training:  - 4250s - loss: 0.2683 - perplexity: 1.3086 - lr: 0.0001
+2023-01-26 21:15:44,997:INFO: - Eval: BLEU-4 71.76 - EM 5.38 - Edit 76.13 - perplexity -1.37
+2023-01-26 21:15:44,998:INFO: - New best score (-1.37)!
+2023-01-26 21:15:46,243:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 21:15:46,244:INFO: - Elapsed time: 4676.80, lr: 0.00010
+2023-01-26 21:15:46,244:INFO: Epoch 15/30
+2023-01-26 22:25:23,623:INFO: - Training:  - 4177s - loss: 0.2456 - perplexity: 1.2792 - lr: 0.0001
+2023-01-26 22:32:28,523:INFO: - Eval: BLEU-4 74.00 - EM 7.21 - Edit 77.36 - perplexity -1.34
+2023-01-26 22:32:28,523:INFO: - New best score (-1.34)!
+2023-01-26 22:32:29,753:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 22:32:29,754:INFO: - Elapsed time: 4603.51, lr: 0.00010
+2023-01-26 22:32:29,754:INFO: Epoch 16/30
+2023-01-26 23:42:08,765:INFO: - Training:  - 4179s - loss: 0.2292 - perplexity: 1.2584 - lr: 0.0001
+2023-01-26 23:49:20,148:INFO: - Eval: BLEU-4 76.05 - EM 13.94 - Edit 79.26 - perplexity -1.31
+2023-01-26 23:49:20,149:INFO: - New best score (-1.31)!
+2023-01-26 23:49:21,398:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-26 23:49:21,398:INFO: - Elapsed time: 4611.64, lr: 0.00010
+2023-01-26 23:49:21,399:INFO: Epoch 17/30
+2023-01-27 01:00:39,126:INFO: - Training:  - 4277s - loss: 0.2126 - perplexity: 1.2376 - lr: 0.0001
+2023-01-27 01:08:06,291:INFO: - Eval: BLEU-4 75.29 - EM 9.41 - Edit 78.20 - perplexity -1.35
+2023-01-27 01:08:06,293:INFO: - Elapsed time: 4724.89, lr: 0.00010
+2023-01-27 01:08:06,293:INFO: Epoch 18/30
+2023-01-27 02:19:57,061:INFO: - Training:  - 4310s - loss: 0.1928 - perplexity: 1.2133 - lr: 0.0001
+2023-01-27 02:27:12,056:INFO: - Eval: BLEU-4 78.23 - EM 13.69 - Edit 79.87 - perplexity -1.30
+2023-01-27 02:27:12,057:INFO: - New best score (-1.30)!
+2023-01-27 02:27:13,682:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-27 02:27:13,683:INFO: - Elapsed time: 4747.39, lr: 0.00010
+2023-01-27 02:27:13,684:INFO: Epoch 19/30
+2023-01-27 03:36:15,953:INFO: - Training:  - 4142s - loss: 0.1794 - perplexity: 1.1971 - lr: 0.0001
+2023-01-27 03:43:33,184:INFO: - Eval: BLEU-4 76.82 - EM 7.33 - Edit 79.63 - perplexity -1.38
+2023-01-27 03:43:33,185:INFO: - Elapsed time: 4579.50, lr: 0.00010
+2023-01-27 03:43:33,185:INFO: Epoch 20/30
+2023-01-27 04:52:39,118:INFO: - Training:  - 4145s - loss: 0.1693 - perplexity: 1.1851 - lr: 0.0001
+2023-01-27 04:59:51,219:INFO: - Eval: BLEU-4 77.58 - EM 11.00 - Edit 80.07 - perplexity -1.34
+2023-01-27 04:59:51,219:INFO: - Elapsed time: 4578.03, lr: 0.00010
+2023-01-27 04:59:51,220:INFO: Epoch 21/30
+2023-01-27 06:08:52,561:INFO: - Training:  - 4141s - loss: 0.1514 - perplexity: 1.1641 - lr: 0.0001
+2023-01-27 06:16:01,129:INFO: - Eval: BLEU-4 78.77 - EM 11.00 - Edit 80.16 - perplexity -1.33
+2023-01-27 06:16:01,129:INFO: - Elapsed time: 4569.91, lr: 0.00010
+2023-01-27 06:16:01,130:INFO: Epoch 22/30
+2023-01-27 07:25:17,642:INFO: - Training:  - 4156s - loss: 0.1401 - perplexity: 1.1510 - lr: 0.0001
+2023-01-27 07:32:32,488:INFO: - Eval: BLEU-4 79.99 - EM 13.81 - Edit 81.18 - perplexity -1.33
+2023-01-27 07:32:32,489:INFO: - Elapsed time: 4591.36, lr: 0.00010
+2023-01-27 07:32:32,489:INFO: Epoch 23/30
+2023-01-27 08:41:46,559:INFO: - Training:  - 4154s - loss: 0.1265 - perplexity: 1.1354 - lr: 0.0001
+2023-01-27 08:49:08,173:INFO: - Eval: BLEU-4 82.74 - EM 24.45 - Edit 83.00 - perplexity -1.24
+2023-01-27 08:49:08,173:INFO: - New best score (-1.24)!
+2023-01-27 08:49:09,453:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-27 08:49:09,454:INFO: - Elapsed time: 4596.97, lr: 0.00010
+2023-01-27 08:49:09,454:INFO: Epoch 24/30
+2023-01-27 09:58:27,324:INFO: - Training:  - 4157s - loss: 0.1099 - perplexity: 1.1165 - lr: 0.0001
+2023-01-27 10:05:42,943:INFO: - Eval: BLEU-4 82.82 - EM 25.79 - Edit 83.27 - perplexity -1.24
+2023-01-27 10:05:42,944:INFO: - New best score (-1.24)!
+2023-01-27 10:05:44,420:INFO: - Saved model in results/clean-RDKit-10K/model.weights/
+2023-01-27 10:05:44,420:INFO: - Elapsed time: 4594.97, lr: 0.00010
+2023-01-27 10:05:44,421:INFO: Epoch 25/30
+2023-01-27 11:15:01,072:INFO: - Training:  - 4156s - loss: 0.1041 - perplexity: 1.1101 - lr: 0.0001
+2023-01-27 11:22:19,674:INFO: - Eval: BLEU-4 82.72 - EM 22.98 - Edit 82.73 - perplexity -1.27
+2023-01-27 11:22:19,675:INFO: - Elapsed time: 4595.25, lr: 0.00010
+2023-01-27 11:22:19,676:INFO: Epoch 26/30
+2023-01-27 12:31:37,803:INFO: - Training:  - 4158s - loss: 0.0992 - perplexity: 1.1047 - lr: 0.0001
+2023-01-27 12:38:59,413:INFO: - Eval: BLEU-4 83.10 - EM 25.79 - Edit 83.67 - perplexity -1.26
+2023-01-27 12:38:59,414:INFO: - Elapsed time: 4599.74, lr: 0.00010
+2023-01-27 12:38:59,415:INFO: Epoch 27/30
+2023-01-27 13:48:50,741:INFO: - Training:  - 4191s - loss: 0.0928 - perplexity: 1.0976 - lr: 0.0001
+2023-01-27 13:56:27,441:INFO: - Eval: BLEU-4 82.85 - EM 25.55 - Edit 83.72 - perplexity -1.27
+2023-01-27 13:56:27,441:INFO: - Elapsed time: 4648.03, lr: 0.00010
+2023-01-27 13:56:27,442:INFO: Epoch 28/30
+2023-01-27 15:05:45,156:INFO: - Training:  - 4157s - loss: 0.0836 - perplexity: 1.0875 - lr: 0.0001
+2023-01-27 15:13:10,304:INFO: - Eval: BLEU-4 82.56 - EM 24.45 - Edit 82.91 - perplexity -1.29
+2023-01-27 15:13:10,305:INFO: - Elapsed time: 4602.86, lr: 0.00010
+2023-01-27 15:13:10,305:INFO: Epoch 29/30
+2023-01-27 16:23:04,904:INFO: - Training:  - 4194s - loss: 0.0778 - perplexity: 1.0813 - lr: 0.0001
+2023-01-27 16:30:24,939:INFO: - Eval: BLEU-4 81.47 - EM 22.00 - Edit 82.56 - perplexity -1.33
+2023-01-27 16:30:24,940:INFO: - Elapsed time: 4634.63, lr: 0.00010
+2023-01-27 16:30:24,940:INFO: Epoch 30/30
+2023-01-27 17:40:05,891:INFO: - Training:  - 4180s - loss: 0.0721 - perplexity: 1.0751 - lr: 0.0001
+2023-01-27 17:47:23,574:INFO: - Eval: BLEU-4 84.91 - EM 30.81 - Edit 85.10 - perplexity -1.27
+2023-01-27 17:47:23,575:INFO: - Elapsed time: 4618.64, lr: 0.00010
+2023-01-28 00:12:38,220:INFO: Building model...
+2023-01-28 00:12:38,947:INFO: - done.
+2023-01-28 00:12:38,947:INFO: Reloading the latest trained model...
+2023-01-28 00:12:38,948:INFO: Restoring parameters from results/clean-RDKit-10K/model.weights/
+2023-01-28 00:20:27,243:INFO: - Test Txt: BLEU-4 83.22 - EM 24.75 - Edit 83.23 - perplexity -1.26
+2023-01-28 20:06:49,841:INFO: Building model...
+2023-01-28 20:08:45,279:INFO: Building model...
+2023-01-28 20:08:45,279:INFO: Building model...
+2023-01-28 20:09:00,106:INFO: Building model...
+2023-01-28 20:09:00,106:INFO: Building model...
+2023-01-28 20:09:00,106:INFO: Building model...
+2023-01-28 20:09:20,556:INFO: Building model...
+2023-01-28 20:09:20,913:WARNING: From Z:\FYP\im2smilesv2\model\decoder.py:58: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-28 20:09:20,944:WARNING: From C:\Users\Yuriy\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:991: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-28 20:10:49,809:INFO: Building model...
+2023-01-28 20:10:49,809:INFO: Building model...
+2023-01-28 20:11:15,277:INFO: Building model...
+2023-01-28 20:11:15,622:WARNING: From Z:\FYP\im2smilesv2\model\decoder.py:58: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-28 20:11:15,652:WARNING: From C:\Users\Yuriy\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:991: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-28 20:12:22,241:INFO: Building model...
+2023-01-28 20:12:22,241:INFO: Building model...
+2023-01-28 20:12:37,827:INFO: Building model...
+2023-01-28 20:12:38,173:WARNING: From Z:\FYP\im2smilesv2\model\decoder.py:58: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-28 20:12:38,202:WARNING: From C:\Users\Yuriy\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:991: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-28 20:12:38,361:WARNING: From Z:\FYP\im2smilesv2\model\components\dynamic_decode.py:58: calling while_loop_v2 (from tensorflow.python.ops.control_flow_ops) with back_prop=False is deprecated and will be removed in a future version.
+Instructions for updating:
+back_prop=False is deprecated. Consider using tf.stop_gradient instead.
+Instead of:
+results = tf.while_loop(c, b, vars, back_prop=False)
+Use:
+results = tf.nest.map_structure(tf.stop_gradient, tf.while_loop(c, b, vars))
+2023-01-28 20:15:46,142:INFO: Building model...
+2023-01-28 20:15:46,487:WARNING: From Z:\FYP\im2smilesv2\model\decoder.py:58: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-28 20:15:46,516:WARNING: From C:\Users\Yuriy\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:991: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-28 20:17:52,148:INFO: Building model...
+2023-01-28 20:17:52,492:WARNING: From Z:\FYP\im2smilesv2\model\decoder.py:58: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2023-01-28 20:17:52,522:WARNING: From C:\Users\Yuriy\AppData\Roaming\Python\Python39\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:991: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-01-28 20:17:52,686:WARNING: From Z:\FYP\im2smilesv2\model\components\dynamic_decode.py:58: calling while_loop_v2 (from tensorflow.python.ops.control_flow_ops) with back_prop=False is deprecated and will be removed in a future version.
+Instructions for updating:
+back_prop=False is deprecated. Consider using tf.stop_gradient instead.
+Instead of:
+results = tf.while_loop(c, b, vars, back_prop=False)
+Use:
+results = tf.nest.map_structure(tf.stop_gradient, tf.while_loop(c, b, vars))
+2023-01-28 20:17:54,963:INFO: - done.
+2023-01-28 20:17:54,964:INFO: Epoch 1/30
+2023-01-28 20:18:00,602:INFO: - Training:  - 5s - loss: 3.1084 - perplexity: 22.3862 - lr: 0.0001
+2023-01-28 20:18:01,254:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 0.00 - perplexity -10.37
+2023-01-28 20:18:01,255:INFO: - New best score (-10.37)!
+2023-01-28 20:18:02,806:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:02,806:INFO: - Elapsed time: 7.84, lr: 0.00010
+2023-01-28 20:18:02,807:INFO: Epoch 2/30
+2023-01-28 20:18:04,385:INFO: - Training:  - 1s - loss: 2.2891 - perplexity: 9.8664 - lr: 0.0001
+2023-01-28 20:18:04,645:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 4.55 - perplexity -6.31
+2023-01-28 20:18:04,645:INFO: - New best score (-6.31)!
+2023-01-28 20:18:05,763:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:05,764:INFO: - Elapsed time: 2.96, lr: 0.00010
+2023-01-28 20:18:05,764:INFO: Epoch 3/30
+2023-01-28 20:18:07,314:INFO: - Training:  - 1s - loss: 1.7839 - perplexity: 5.9532 - lr: 0.0001
+2023-01-28 20:18:07,648:INFO: - Eval: BLEU-4 0.00 - EM 0.00 - Edit 9.09 - perplexity -5.57
+2023-01-28 20:18:07,648:INFO: - New best score (-5.57)!
+2023-01-28 20:18:08,696:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:08,696:INFO: - Elapsed time: 2.93, lr: 0.00010
+2023-01-28 20:18:08,697:INFO: Epoch 4/30
+2023-01-28 20:18:10,193:INFO: - Training:  - 1s - loss: 1.6416 - perplexity: 5.1632 - lr: 0.0001
+2023-01-28 20:18:10,478:INFO: - Eval: BLEU-4 3.52 - EM 0.00 - Edit 28.18 - perplexity -5.79
+2023-01-28 20:18:10,478:INFO: - Elapsed time: 1.78, lr: 0.00010
+2023-01-28 20:18:10,479:INFO: Epoch 5/30
+2023-01-28 20:18:11,998:INFO: - Training:  - 1s - loss: 1.6709 - perplexity: 5.3167 - lr: 0.0001
+2023-01-28 20:18:12,224:INFO: - Eval: BLEU-4 9.13 - EM 0.00 - Edit 46.36 - perplexity -5.67
+2023-01-28 20:18:12,225:INFO: - Elapsed time: 1.75, lr: 0.00010
+2023-01-28 20:18:12,225:INFO: Epoch 6/30
+2023-01-28 20:18:13,571:INFO: - Training:  - 1s - loss: 1.6603 - perplexity: 5.2607 - lr: 0.0001
+2023-01-28 20:18:13,801:INFO: - Eval: BLEU-4 9.56 - EM 0.00 - Edit 48.18 - perplexity -5.21
+2023-01-28 20:18:13,801:INFO: - New best score (-5.21)!
+2023-01-28 20:18:15,035:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:15,035:INFO: - Elapsed time: 2.81, lr: 0.00010
+2023-01-28 20:18:15,036:INFO: Epoch 7/30
+2023-01-28 20:18:16,569:INFO: - Training:  - 1s - loss: 1.5933 - perplexity: 4.9199 - lr: 0.0001
+2023-01-28 20:18:16,896:INFO: - Eval: BLEU-4 7.47 - EM 0.00 - Edit 40.00 - perplexity -4.72
+2023-01-28 20:18:16,896:INFO: - New best score (-4.72)!
+2023-01-28 20:18:18,059:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:18,060:INFO: - Elapsed time: 3.02, lr: 0.00010
+2023-01-28 20:18:18,060:INFO: Epoch 8/30
+2023-01-28 20:18:19,582:INFO: - Training:  - 1s - loss: 1.5156 - perplexity: 4.5521 - lr: 0.0001
+2023-01-28 20:18:19,807:INFO: - Eval: BLEU-4 4.91 - EM 0.00 - Edit 31.82 - perplexity -4.46
+2023-01-28 20:18:19,807:INFO: - New best score (-4.46)!
+2023-01-28 20:18:21,141:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:21,141:INFO: - Elapsed time: 3.08, lr: 0.00010
+2023-01-28 20:18:21,142:INFO: Epoch 9/30
+2023-01-28 20:18:22,680:INFO: - Training:  - 1s - loss: 1.4737 - perplexity: 4.3654 - lr: 0.0001
+2023-01-28 20:18:22,943:INFO: - Eval: BLEU-4 3.42 - EM 0.00 - Edit 27.27 - perplexity -4.45
+2023-01-28 20:18:22,944:INFO: - New best score (-4.45)!
+2023-01-28 20:18:24,047:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:24,048:INFO: - Elapsed time: 2.91, lr: 0.00010
+2023-01-28 20:18:24,048:INFO: Epoch 10/30
+2023-01-28 20:18:25,582:INFO: - Training:  - 1s - loss: 1.4789 - perplexity: 4.3879 - lr: 0.0001
+2023-01-28 20:18:25,925:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.55
+2023-01-28 20:18:25,926:INFO: - Elapsed time: 1.88, lr: 0.00010
+2023-01-28 20:18:25,926:INFO: Epoch 11/30
+2023-01-28 20:18:28,145:INFO: - Training:  - 2s - loss: 1.5009 - perplexity: 4.4858 - lr: 0.0001
+2023-01-28 20:18:28,464:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.60
+2023-01-28 20:18:28,464:INFO: - Elapsed time: 2.54, lr: 0.00010
+2023-01-28 20:18:28,465:INFO: Epoch 12/30
+2023-01-28 20:18:30,579:INFO: - Training:  - 2s - loss: 1.5063 - perplexity: 4.5099 - lr: 0.0001
+2023-01-28 20:18:30,883:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.55
+2023-01-28 20:18:30,883:INFO: - Elapsed time: 2.42, lr: 0.00010
+2023-01-28 20:18:30,884:INFO: Epoch 13/30
+2023-01-28 20:18:32,987:INFO: - Training:  - 2s - loss: 1.4872 - perplexity: 4.4245 - lr: 0.0001
+2023-01-28 20:18:33,322:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.46
+2023-01-28 20:18:33,323:INFO: - Elapsed time: 2.44, lr: 0.00010
+2023-01-28 20:18:33,324:INFO: Epoch 14/30
+2023-01-28 20:18:34,986:INFO: - Training:  - 1s - loss: 1.4567 - perplexity: 4.2919 - lr: 0.0001
+2023-01-28 20:18:35,250:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.39
+2023-01-28 20:18:35,251:INFO: - New best score (-4.39)!
+2023-01-28 20:18:36,511:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:36,512:INFO: - Elapsed time: 3.19, lr: 0.00010
+2023-01-28 20:18:36,512:INFO: Epoch 15/30
+2023-01-28 20:18:38,296:INFO: - Training:  - 1s - loss: 1.4331 - perplexity: 4.1918 - lr: 0.0001
+2023-01-28 20:18:38,629:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.39
+2023-01-28 20:18:38,629:INFO: - New best score (-4.39)!
+2023-01-28 20:18:40,386:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:40,386:INFO: - Elapsed time: 3.87, lr: 0.00010
+2023-01-28 20:18:40,386:INFO: Epoch 16/30
+2023-01-28 20:18:42,139:INFO: - Training:  - 1s - loss: 1.4249 - perplexity: 4.1576 - lr: 0.0001
+2023-01-28 20:18:42,376:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.43
+2023-01-28 20:18:42,377:INFO: - Elapsed time: 1.99, lr: 0.00010
+2023-01-28 20:18:42,377:INFO: Epoch 17/30
+2023-01-28 20:18:43,919:INFO: - Training:  - 1s - loss: 1.4278 - perplexity: 4.1696 - lr: 0.0001
+2023-01-28 20:18:44,145:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.46
+2023-01-28 20:18:44,146:INFO: - Elapsed time: 1.77, lr: 0.00010
+2023-01-28 20:18:44,146:INFO: Epoch 18/30
+2023-01-28 20:18:45,509:INFO: - Training:  - 1s - loss: 1.4313 - perplexity: 4.1840 - lr: 0.0001
+2023-01-28 20:18:45,737:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.44
+2023-01-28 20:18:45,738:INFO: - Elapsed time: 1.59, lr: 0.00010
+2023-01-28 20:18:45,738:INFO: Epoch 19/30
+2023-01-28 20:18:47,109:INFO: - Training:  - 1s - loss: 1.4280 - perplexity: 4.1705 - lr: 0.0001
+2023-01-28 20:18:47,335:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.39
+2023-01-28 20:18:47,335:INFO: - New best score (-4.39)!
+2023-01-28 20:18:48,731:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:48,732:INFO: - Elapsed time: 2.99, lr: 0.00010
+2023-01-28 20:18:48,732:INFO: Epoch 20/30
+2023-01-28 20:18:50,233:INFO: - Training:  - 1s - loss: 1.4176 - perplexity: 4.1272 - lr: 0.0001
+2023-01-28 20:18:50,557:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.32
+2023-01-28 20:18:50,557:INFO: - New best score (-4.32)!
+2023-01-28 20:18:51,880:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:51,880:INFO: - Elapsed time: 3.15, lr: 0.00010
+2023-01-28 20:18:51,881:INFO: Epoch 21/30
+2023-01-28 20:18:53,538:INFO: - Training:  - 1s - loss: 1.4042 - perplexity: 4.0724 - lr: 0.0001
+2023-01-28 20:18:53,769:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.25
+2023-01-28 20:18:53,770:INFO: - New best score (-4.25)!
+2023-01-28 20:18:55,004:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:55,004:INFO: - Elapsed time: 3.12, lr: 0.00010
+2023-01-28 20:18:55,005:INFO: Epoch 22/30
+2023-01-28 20:18:56,524:INFO: - Training:  - 1s - loss: 1.3930 - perplexity: 4.0269 - lr: 0.0001
+2023-01-28 20:18:56,837:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.21
+2023-01-28 20:18:56,838:INFO: - New best score (-4.21)!
+2023-01-28 20:18:58,219:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:18:58,220:INFO: - Elapsed time: 3.22, lr: 0.00010
+2023-01-28 20:18:58,220:INFO: Epoch 23/30
+2023-01-28 20:18:59,745:INFO: - Training:  - 1s - loss: 1.3865 - perplexity: 4.0010 - lr: 0.0001
+2023-01-28 20:19:00,093:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.20
+2023-01-28 20:19:00,093:INFO: - New best score (-4.20)!
+2023-01-28 20:19:01,269:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:01,269:INFO: - Elapsed time: 3.05, lr: 0.00010
+2023-01-28 20:19:01,269:INFO: Epoch 24/30
+2023-01-28 20:19:02,944:INFO: - Training:  - 1s - loss: 1.3840 - perplexity: 3.9907 - lr: 0.0001
+2023-01-28 20:19:03,174:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.19
+2023-01-28 20:19:03,174:INFO: - New best score (-4.19)!
+2023-01-28 20:19:04,593:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:04,593:INFO: - Elapsed time: 3.32, lr: 0.00010
+2023-01-28 20:19:04,594:INFO: Epoch 25/30
+2023-01-28 20:19:06,144:INFO: - Training:  - 1s - loss: 1.3827 - perplexity: 3.9858 - lr: 0.0001
+2023-01-28 20:19:06,479:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.19
+2023-01-28 20:19:06,480:INFO: - New best score (-4.19)!
+2023-01-28 20:19:09,515:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:09,516:INFO: - Elapsed time: 4.92, lr: 0.00010
+2023-01-28 20:19:09,516:INFO: Epoch 26/30
+2023-01-28 20:19:11,338:INFO: - Training:  - 1s - loss: 1.3806 - perplexity: 3.9774 - lr: 0.0001
+2023-01-28 20:19:11,575:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.17
+2023-01-28 20:19:11,575:INFO: - New best score (-4.17)!
+2023-01-28 20:19:12,688:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:12,689:INFO: - Elapsed time: 3.17, lr: 0.00010
+2023-01-28 20:19:12,689:INFO: Epoch 27/30
+2023-01-28 20:19:14,159:INFO: - Training:  - 1s - loss: 1.3762 - perplexity: 3.9600 - lr: 0.0001
+2023-01-28 20:19:14,473:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.15
+2023-01-28 20:19:14,474:INFO: - New best score (-4.15)!
+2023-01-28 20:19:15,821:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:15,822:INFO: - Elapsed time: 3.13, lr: 0.00010
+2023-01-28 20:19:15,823:INFO: Epoch 28/30
+2023-01-28 20:19:17,443:INFO: - Training:  - 1s - loss: 1.3691 - perplexity: 3.9319 - lr: 0.0001
+2023-01-28 20:19:17,678:INFO: - Eval: BLEU-4 5.27 - EM 0.00 - Edit 25.00 - perplexity -4.12
+2023-01-28 20:19:17,678:INFO: - New best score (-4.12)!
+2023-01-28 20:19:19,370:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:19,371:INFO: - Elapsed time: 3.55, lr: 0.00010
+2023-01-28 20:19:19,371:INFO: Epoch 29/30
+2023-01-28 20:19:21,064:INFO: - Training:  - 1s - loss: 1.3606 - perplexity: 3.8985 - lr: 0.0001
+2023-01-28 20:19:21,381:INFO: - Eval: BLEU-4 7.81 - EM 0.00 - Edit 36.52 - perplexity -4.09
+2023-01-28 20:19:21,382:INFO: - New best score (-4.09)!
+2023-01-28 20:19:22,661:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:22,661:INFO: - Elapsed time: 3.29, lr: 0.00010
+2023-01-28 20:19:22,662:INFO: Epoch 30/30
+2023-01-28 20:19:24,206:INFO: - Training:  - 1s - loss: 1.3527 - perplexity: 3.8678 - lr: 0.0001
+2023-01-28 20:19:24,484:INFO: - Eval: BLEU-4 9.98 - EM 0.00 - Edit 46.10 - perplexity -4.06
+2023-01-28 20:19:24,485:INFO: - New best score (-4.06)!
+2023-01-28 20:19:25,902:INFO: - Saved model in results/small/model.weights/
+2023-01-28 20:19:25,903:INFO: - Elapsed time: 3.24, lr: 0.00010

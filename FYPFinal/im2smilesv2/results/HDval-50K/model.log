@@ -1,0 +1,160 @@
+2023-04-26 12:05:51,560:INFO: Building model...
+2023-04-26 12:05:53,217:INFO: - done.
+2023-04-26 12:05:53,218:INFO: Epoch 1/30
+2023-04-26 12:15:49,857:INFO: - Training:  - 596s - loss: 0.8800 - perplexity: 2.4430 - lr: 0.0001
+2023-04-26 12:15:55,436:INFO: - Eval: BLEU-4 29.62 - EM 0.00 - Edit 45.90 - perplexity -2.91
+2023-04-26 12:15:55,438:INFO: - New best score (-2.91)!
+2023-04-26 12:15:56,638:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 12:15:56,639:INFO: - Elapsed time: 603.42, lr: 0.00010
+2023-04-26 12:15:56,640:INFO: Epoch 2/30
+2023-04-26 12:25:55,424:INFO: - Training:  - 598s - loss: 0.7332 - perplexity: 2.0827 - lr: 0.0001
+2023-04-26 12:26:01,224:INFO: - Eval: BLEU-4 26.74 - EM 0.00 - Edit 44.04 - perplexity -2.72
+2023-04-26 12:26:01,226:INFO: - New best score (-2.72)!
+2023-04-26 12:26:02,424:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 12:26:02,425:INFO: - Elapsed time: 605.78, lr: 0.00010
+2023-04-26 12:26:02,426:INFO: Epoch 3/30
+2023-04-26 12:36:04,161:INFO: - Training:  - 601s - loss: 0.7000 - perplexity: 2.0142 - lr: 0.0001
+2023-04-26 12:36:09,815:INFO: - Eval: BLEU-4 26.81 - EM 0.00 - Edit 44.62 - perplexity -2.65
+2023-04-26 12:36:09,816:INFO: - New best score (-2.65)!
+2023-04-26 12:36:11,391:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 12:36:11,392:INFO: - Elapsed time: 608.97, lr: 0.00010
+2023-04-26 12:36:11,392:INFO: Epoch 4/30
+2023-04-26 12:46:07,029:INFO: - Training:  - 595s - loss: 0.6868 - perplexity: 1.9878 - lr: 0.0001
+2023-04-26 12:46:12,619:INFO: - Eval: BLEU-4 31.67 - EM 0.00 - Edit 45.77 - perplexity -2.63
+2023-04-26 12:46:12,620:INFO: - New best score (-2.63)!
+2023-04-26 12:46:13,779:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 12:46:13,780:INFO: - Elapsed time: 602.39, lr: 0.00010
+2023-04-26 12:46:13,780:INFO: Epoch 5/30
+2023-04-26 12:56:06,036:INFO: - Training:  - 592s - loss: 0.6800 - perplexity: 1.9742 - lr: 0.0001
+2023-04-26 12:56:11,591:INFO: - Eval: BLEU-4 30.28 - EM 0.00 - Edit 45.55 - perplexity -2.59
+2023-04-26 12:56:11,592:INFO: - New best score (-2.59)!
+2023-04-26 12:56:12,825:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 12:56:12,826:INFO: - Elapsed time: 599.05, lr: 0.00010
+2023-04-26 12:56:12,827:INFO: Epoch 6/30
+2023-04-26 13:06:02,955:INFO: - Training:  - 590s - loss: 0.6759 - perplexity: 1.9661 - lr: 0.0001
+2023-04-26 13:06:08,525:INFO: - Eval: BLEU-4 30.28 - EM 0.00 - Edit 45.55 - perplexity -2.54
+2023-04-26 13:06:08,526:INFO: - New best score (-2.54)!
+2023-04-26 13:06:11,268:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:06:11,269:INFO: - Elapsed time: 598.44, lr: 0.00010
+2023-04-26 13:06:11,270:INFO: Epoch 7/30
+2023-04-26 13:16:02,696:INFO: - Training:  - 591s - loss: 0.6715 - perplexity: 1.9574 - lr: 0.0001
+2023-04-26 13:16:08,285:INFO: - Eval: BLEU-4 31.05 - EM 0.00 - Edit 46.53 - perplexity -2.53
+2023-04-26 13:16:08,286:INFO: - New best score (-2.53)!
+2023-04-26 13:16:09,540:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:16:09,541:INFO: - Elapsed time: 598.27, lr: 0.00010
+2023-04-26 13:16:09,542:INFO: Epoch 8/30
+2023-04-26 13:25:58,879:INFO: - Training:  - 589s - loss: 0.6684 - perplexity: 1.9513 - lr: 0.0001
+2023-04-26 13:26:04,433:INFO: - Eval: BLEU-4 31.12 - EM 0.00 - Edit 46.62 - perplexity -2.52
+2023-04-26 13:26:04,434:INFO: - New best score (-2.52)!
+2023-04-26 13:26:05,587:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:26:05,588:INFO: - Elapsed time: 596.05, lr: 0.00010
+2023-04-26 13:26:05,589:INFO: Epoch 9/30
+2023-04-26 13:35:55,724:INFO: - Training:  - 590s - loss: 0.6661 - perplexity: 1.9468 - lr: 0.0001
+2023-04-26 13:36:01,146:INFO: - Eval: BLEU-4 32.47 - EM 0.00 - Edit 48.19 - perplexity -2.50
+2023-04-26 13:36:01,147:INFO: - New best score (-2.50)!
+2023-04-26 13:36:02,484:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:36:02,485:INFO: - Elapsed time: 596.90, lr: 0.00010
+2023-04-26 13:36:02,486:INFO: Epoch 10/30
+2023-04-26 13:45:52,555:INFO: - Training:  - 590s - loss: 0.6639 - perplexity: 1.9427 - lr: 0.0001
+2023-04-26 13:45:58,156:INFO: - Eval: BLEU-4 34.60 - EM 0.00 - Edit 46.89 - perplexity -2.47
+2023-04-26 13:45:58,156:INFO: - New best score (-2.47)!
+2023-04-26 13:45:59,388:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:45:59,389:INFO: - Elapsed time: 596.90, lr: 0.00010
+2023-04-26 13:45:59,389:INFO: Epoch 11/30
+2023-04-26 13:55:48,875:INFO: - Training:  - 589s - loss: 0.6615 - perplexity: 1.9380 - lr: 0.0001
+2023-04-26 13:55:54,196:INFO: - Eval: BLEU-4 35.39 - EM 0.00 - Edit 47.26 - perplexity -2.46
+2023-04-26 13:55:54,197:INFO: - New best score (-2.46)!
+2023-04-26 13:55:55,645:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 13:55:55,646:INFO: - Elapsed time: 596.26, lr: 0.00010
+2023-04-26 13:55:55,647:INFO: Epoch 12/30
+2023-04-26 14:05:44,263:INFO: - Training:  - 588s - loss: 0.6597 - perplexity: 1.9345 - lr: 0.0001
+2023-04-26 14:05:49,561:INFO: - Eval: BLEU-4 30.78 - EM 0.00 - Edit 46.86 - perplexity -2.46
+2023-04-26 14:05:49,563:INFO: - Elapsed time: 593.92, lr: 0.00010
+2023-04-26 14:05:49,564:INFO: Epoch 13/30
+2023-04-26 14:15:36,462:INFO: - Training:  - 586s - loss: 0.6574 - perplexity: 1.9301 - lr: 0.0001
+2023-04-26 14:15:41,763:INFO: - Eval: BLEU-4 31.55 - EM 0.00 - Edit 47.98 - perplexity -2.48
+2023-04-26 14:15:41,764:INFO: - Elapsed time: 592.20, lr: 0.00010
+2023-04-26 14:15:41,765:INFO: Epoch 14/30
+2023-04-26 14:25:32,084:INFO: - Training:  - 590s - loss: 0.6553 - perplexity: 1.9259 - lr: 0.0001
+2023-04-26 14:25:37,368:INFO: - Eval: BLEU-4 29.65 - EM 0.00 - Edit 46.18 - perplexity -2.49
+2023-04-26 14:25:37,369:INFO: - Elapsed time: 595.60, lr: 0.00010
+2023-04-26 14:25:37,369:INFO: Epoch 15/30
+2023-04-26 14:35:26,307:INFO: - Training:  - 588s - loss: 0.6530 - perplexity: 1.9215 - lr: 0.0001
+2023-04-26 14:35:31,626:INFO: - Eval: BLEU-4 27.59 - EM 0.00 - Edit 45.96 - perplexity -2.49
+2023-04-26 14:35:31,627:INFO: - Elapsed time: 594.26, lr: 0.00010
+2023-04-26 14:35:31,627:INFO: Epoch 16/30
+2023-04-26 14:45:20,393:INFO: - Training:  - 588s - loss: 0.6507 - perplexity: 1.9171 - lr: 0.0001
+2023-04-26 14:45:25,704:INFO: - Eval: BLEU-4 29.66 - EM 0.00 - Edit 46.91 - perplexity -2.50
+2023-04-26 14:45:25,705:INFO: - Elapsed time: 594.08, lr: 0.00010
+2023-04-26 14:45:25,706:INFO: Epoch 17/30
+2023-04-26 14:55:14,188:INFO: - Training:  - 588s - loss: 0.6478 - perplexity: 1.9116 - lr: 0.0001
+2023-04-26 14:55:19,687:INFO: - Eval: BLEU-4 27.26 - EM 0.00 - Edit 44.47 - perplexity -2.48
+2023-04-26 14:55:19,688:INFO: - Elapsed time: 593.98, lr: 0.00010
+2023-04-26 14:55:19,688:INFO: Epoch 18/30
+2023-04-26 15:05:10,285:INFO: - Training:  - 590s - loss: 0.6448 - perplexity: 1.9059 - lr: 0.0001
+2023-04-26 15:05:15,857:INFO: - Eval: BLEU-4 26.59 - EM 0.00 - Edit 43.30 - perplexity -2.48
+2023-04-26 15:05:15,858:INFO: - Elapsed time: 596.17, lr: 0.00010
+2023-04-26 15:05:15,858:INFO: Epoch 19/30
+2023-04-26 15:15:05,978:INFO: - Training:  - 590s - loss: 0.6414 - perplexity: 1.8994 - lr: 0.0001
+2023-04-26 15:15:11,296:INFO: - Eval: BLEU-4 33.47 - EM 0.00 - Edit 46.42 - perplexity -2.49
+2023-04-26 15:15:11,298:INFO: - Elapsed time: 595.44, lr: 0.00010
+2023-04-26 15:15:11,298:INFO: Epoch 20/30
+2023-04-26 15:25:01,734:INFO: - Training:  - 590s - loss: 0.6377 - perplexity: 1.8924 - lr: 0.0001
+2023-04-26 15:25:07,010:INFO: - Eval: BLEU-4 29.64 - EM 0.00 - Edit 46.54 - perplexity -2.51
+2023-04-26 15:25:07,011:INFO: - Elapsed time: 595.71, lr: 0.00010
+2023-04-26 15:25:07,011:INFO: Epoch 21/30
+2023-04-26 15:34:57,901:INFO: - Training:  - 590s - loss: 0.6265 - perplexity: 1.8714 - lr: 0.0001
+2023-04-26 15:35:03,835:INFO: - Eval: BLEU-4 27.50 - EM 0.00 - Edit 44.88 - perplexity -2.45
+2023-04-26 15:35:03,837:INFO: - New best score (-2.45)!
+2023-04-26 15:35:05,081:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 15:35:05,082:INFO: - Elapsed time: 598.07, lr: 0.00010
+2023-04-26 15:35:05,083:INFO: Epoch 22/30
+2023-04-26 15:44:58,139:INFO: - Training:  - 593s - loss: 0.6025 - perplexity: 1.8271 - lr: 0.0001
+2023-04-26 15:45:03,940:INFO: - Eval: BLEU-4 29.50 - EM 0.00 - Edit 48.35 - perplexity -2.38
+2023-04-26 15:45:03,941:INFO: - New best score (-2.38)!
+2023-04-26 15:45:05,910:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 15:45:05,911:INFO: - Elapsed time: 600.83, lr: 0.00010
+2023-04-26 15:45:05,912:INFO: Epoch 23/30
+2023-04-26 15:55:00,846:INFO: - Training:  - 594s - loss: 0.5725 - perplexity: 1.7731 - lr: 0.0001
+2023-04-26 15:55:06,613:INFO: - Eval: BLEU-4 31.67 - EM 0.00 - Edit 49.86 - perplexity -2.29
+2023-04-26 15:55:06,614:INFO: - New best score (-2.29)!
+2023-04-26 15:55:07,863:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 15:55:07,864:INFO: - Elapsed time: 601.95, lr: 0.00010
+2023-04-26 15:55:07,864:INFO: Epoch 24/30
+2023-04-26 16:05:02,416:INFO: - Training:  - 594s - loss: 0.5248 - perplexity: 1.6908 - lr: 0.0001
+2023-04-26 16:05:07,970:INFO: - Eval: BLEU-4 35.78 - EM 0.00 - Edit 53.59 - perplexity -2.21
+2023-04-26 16:05:07,971:INFO: - New best score (-2.21)!
+2023-04-26 16:05:09,609:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 16:05:09,610:INFO: - Elapsed time: 601.75, lr: 0.00010
+2023-04-26 16:05:09,611:INFO: Epoch 25/30
+2023-04-26 16:15:04,490:INFO: - Training:  - 594s - loss: 0.4764 - perplexity: 1.6109 - lr: 0.0001
+2023-04-26 16:15:09,935:INFO: - Eval: BLEU-4 40.77 - EM 0.24 - Edit 57.02 - perplexity -2.13
+2023-04-26 16:15:09,936:INFO: - New best score (-2.13)!
+2023-04-26 16:15:11,329:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 16:15:11,330:INFO: - Elapsed time: 601.72, lr: 0.00010
+2023-04-26 16:15:11,331:INFO: Epoch 26/30
+2023-04-26 16:25:05,268:INFO: - Training:  - 593s - loss: 0.4322 - perplexity: 1.5413 - lr: 0.0001
+2023-04-26 16:25:10,769:INFO: - Eval: BLEU-4 44.27 - EM 0.24 - Edit 58.51 - perplexity -2.08
+2023-04-26 16:25:10,770:INFO: - New best score (-2.08)!
+2023-04-26 16:25:12,124:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 16:25:12,125:INFO: - Elapsed time: 600.79, lr: 0.00010
+2023-04-26 16:25:12,126:INFO: Epoch 27/30
+2023-04-26 16:35:06,309:INFO: - Training:  - 594s - loss: 0.3946 - perplexity: 1.4845 - lr: 0.0001
+2023-04-26 16:35:11,778:INFO: - Eval: BLEU-4 47.77 - EM 0.24 - Edit 59.91 - perplexity -2.08
+2023-04-26 16:35:11,779:INFO: - New best score (-2.08)!
+2023-04-26 16:35:13,054:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 16:35:13,055:INFO: - Elapsed time: 600.93, lr: 0.00010
+2023-04-26 16:35:13,056:INFO: Epoch 28/30
+2023-04-26 16:45:08,606:INFO: - Training:  - 595s - loss: 0.3634 - perplexity: 1.4389 - lr: 0.0001
+2023-04-26 16:45:14,122:INFO: - Eval: BLEU-4 50.89 - EM 0.24 - Edit 60.73 - perplexity -2.06
+2023-04-26 16:45:14,123:INFO: - New best score (-2.06)!
+2023-04-26 16:45:15,548:INFO: - Saved model in results/HDval-50K/model.weights/
+2023-04-26 16:45:15,549:INFO: - Elapsed time: 602.49, lr: 0.00010
+2023-04-26 16:45:15,549:INFO: Epoch 29/30
+2023-04-26 16:55:10,672:INFO: - Training:  - 595s - loss: 0.3358 - perplexity: 1.3997 - lr: 0.0001
+2023-04-26 16:55:16,323:INFO: - Eval: BLEU-4 51.21 - EM 0.73 - Edit 60.88 - perplexity -2.13
+2023-04-26 16:55:16,324:INFO: - Elapsed time: 600.77, lr: 0.00010
+2023-04-26 16:55:16,324:INFO: Epoch 30/30
+2023-04-26 17:05:12,404:INFO: - Training:  - 596s - loss: 0.3121 - perplexity: 1.3670 - lr: 0.0001
+2023-04-26 17:05:18,005:INFO: - Eval: BLEU-4 52.78 - EM 0.24 - Edit 62.06 - perplexity -2.08
+2023-04-26 17:05:18,006:INFO: - Elapsed time: 601.68, lr: 0.00010
