@@ -23,8 +23,11 @@ app = Flask(__name__)
 def interactive_shell():
     
     file = request.files['image'].read()
-
+    
+    # Retriving image 
     tmp = np.frombuffer(file, dtype=np.uint8)
+    
+    # Scanning Image retrived from app
     img = cv2.imdecode(tmp, flags=cv2.IMREAD_COLOR)
 
     dir_output = "Z:/FYP/im2smilesv2/results/clean-RDKit-500K/"
@@ -32,20 +35,34 @@ def interactive_shell():
     config_model = Config(dir_output + "model.json")
     vocab = Vocab(config_vocab)
 
+    # loading model
     model = Img2SeqModel(config_model, dir_output, vocab)
+
+    # running model
     model.build_pred()
     model.restore_session(dir_output + "model.weights/")
 
+    # chaning image color from RBG to gray
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # resizing the image
     img = cv2.resize(img, (256, 256))
+    
+    # changing NumPy array
+    # adding new axis to make into 3 dimensonal array for grayscale
     img = img[:, :, np.newaxis].astype(np.uint8)
+
+    # sending model data to a list of hypothesis
     hyps = model.predict(img)
 
+    # selecting most likely hypothesis
     smiles = hyps[0]
 
+    # converting to moles
     mol = Chem.MolFromSmiles(smiles)
     
     try:
+        # calculating moles formula
         formula = Chem.rdMolDescriptors.CalcMolFormula(mol)
     except Exception as e:
         print("Error in structure, placement structure will be used instead")
@@ -54,8 +71,12 @@ def interactive_shell():
         mol = Chem.MolFromSmiles(smiles)
         formula = Chem.rdMolDescriptors.CalcMolFormula(mol)
 
+    # adding hydrogen to the atom
     mol = Chem.AddHs(mol)
+
+    # generate 3D atoms
     AllChem.EmbedMolecule(mol)
+
     AllChem.MMFFOptimizeMolecule(mol)
 
     # Write the SDF string to a file
